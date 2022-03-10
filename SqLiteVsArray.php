@@ -74,4 +74,4 @@ $time = microtime(true);
 for ($i = 0; $i < $stop; $i++) {
     $a = $sqlite_db->query('SELECT * FROM `test` WHERE `name` = "Prodigy"');
 }
-echo "Time #1 (array): " . (microtime(true) - $time) . "\n";
+echo "Time #2 (SQLite): " . (microtime(true) - $time) . "\n";
