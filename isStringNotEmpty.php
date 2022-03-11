@@ -50,3 +50,16 @@ for ($i = 0; $i < $stop; $i++ ) {
     }
 }
 echo $ok." Time #2: " . (microtime(true) - $st) . "\n";
+
+/* почему это работает и будет работать всегда? Вот код на С++:
+
+#include <iostream>
+
+int main()
+{
+    std::string a = "Prodigy";
+    std::cout << a[0] << std::endl;
+    return 0;
+}
+
+пока он работает это будет работать */
